@@ -13,6 +13,18 @@
       "title": "",
       "description": "",
       "properties": {}
+    },
+    "prefix": {
+      "type": "string",
+      "title": "",
+      "description": "",
+      "properties": {}
+    },
+    "suffix": {
+      "type": "string",
+      "title": "",
+      "description": "",
+      "properties": {}
     }
   },
   "title": "account"
