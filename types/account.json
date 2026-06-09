@@ -25,6 +25,56 @@
       "title": "",
       "description": "",
       "properties": {}
+    },
+    "address": {
+      "type": "object",
+      "title": "",
+      "description": "",
+      "properties": {
+        "street": {
+          "type": "string",
+          "title": "",
+          "description": "",
+          "properties": {}
+        },
+        "zip": {
+          "type": "string",
+          "title": "",
+          "description": "",
+          "properties": {}
+        },
+        "state": {
+          "type": "string",
+          "title": "",
+          "description": "",
+          "properties": {}
+        },
+        "country": {
+          "type": "string",
+          "title": "",
+          "description": "",
+          "properties": {}
+        }
+      },
+      "required": []
+    },
+    "contact": {
+      "type": "string",
+      "title": "",
+      "description": "",
+      "properties": {}
+    },
+    "billing": {
+      "type": "string",
+      "title": "",
+      "description": "",
+      "properties": {}
+    },
+    "email": {
+      "type": "string",
+      "title": "",
+      "description": "",
+      "properties": {}
     }
   },
   "title": "account"
