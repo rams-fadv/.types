@@ -6,9 +6,90 @@
       "type": "object",
       "title": "account",
       "description": "",
-      "properties": {},
-      "required": []
+      "$ref": "#/definitions/account"
     }
   },
-  "title": "sample2"
+  "title": "sample2",
+  "definitions": {
+    "account": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "title": "",
+          "description": "",
+          "properties": {}
+        },
+        "name": {
+          "type": "string",
+          "title": "",
+          "description": "",
+          "properties": {}
+        },
+        "prefix": {
+          "type": "string",
+          "title": "",
+          "description": "",
+          "properties": {}
+        },
+        "suffix": {
+          "type": "string",
+          "title": "",
+          "description": "",
+          "properties": {}
+        },
+        "address": {
+          "type": "object",
+          "title": "",
+          "description": "",
+          "properties": {
+            "street": {
+              "type": "string",
+              "title": "",
+              "description": "",
+              "properties": {}
+            },
+            "zip": {
+              "type": "string",
+              "title": "",
+              "description": "",
+              "properties": {}
+            },
+            "state": {
+              "type": "string",
+              "title": "",
+              "description": "",
+              "properties": {}
+            },
+            "country": {
+              "type": "string",
+              "title": "",
+              "description": "",
+              "properties": {}
+            }
+          },
+          "required": []
+        },
+        "contact": {
+          "type": "string",
+          "title": "",
+          "description": "",
+          "properties": {}
+        },
+        "billing": {
+          "type": "string",
+          "title": "",
+          "description": "",
+          "properties": {}
+        },
+        "email": {
+          "type": "string",
+          "title": "",
+          "description": "",
+          "properties": {}
+        }
+      },
+      "title": "account"
+    }
+  }
 }
