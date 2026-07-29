@@ -1,13 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
-  "properties": {
-    "field_bc6i": {
-      "type": "object",
-      "title": "",
-      "description": "",
-      "$ref": "typer://rams-fadv/account"
-    }
-  },
-  "title": "sample3"
+  "properties": {},
+  "title": "s3",
+  "description": "sample"
 }
